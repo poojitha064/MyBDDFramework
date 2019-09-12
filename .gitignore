@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-/target/
-=======
 target/
 pom.xml.tag
 pom.xml.releaseBackup
@@ -13,4 +10,3 @@ buildNumber.properties
 
 # Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
 !/.mvn/wrapper/maven-wrapper.jar
->>>>>>> branch 'master' of https://github.com/poojitha064/MyBDDFramework.git
