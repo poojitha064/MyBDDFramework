@@ -8,8 +8,14 @@ public class BaseClass {
 	public WebDriver driver;
 	public static final int MAX_TIMEOUT = 60;
 	public PropertiesUtil propUtil = new PropertiesUtil();
-
+public DriverSupplier driverSupplier;
 	public void initDriver() {
+		try{
+			driverSupplier = new DriverSupplier();
+			driver = driverSupplier.initDriver();
+		} catch (Exception e) {
+			
+		}
 	}
 
 	public static void main(String[] args) {
